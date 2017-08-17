@@ -46,20 +46,27 @@ nav h1 {
   font-weight: bold;
   font-size: 1.5em;
   color: #323232;
-  float: left;
   padding: 0 20px;
   margin-top: 40px;
   margin-bottom: 40px;
+  width: 300px;
+
+  display: inline-block;
+}
+
+nav .links {
+    width: 300px;
+    display: inline-block;
 }
 
 nav p {
   font-family: 'PT Sans', sans-serif;
   font-size: .9em;
   color: 323232;
-  float: right;
   padding: 0 20px;
   margin-top: 40px;
   margin-bottom: 40px;
+  display: inline-block;
 }
 
 ul {
@@ -68,7 +75,7 @@ ul {
     padding: 0;
     overflow: hidden;
  }
-  
+
 footer {
   font-family:'PT Sans Narrow', sans-serif;
   font-weight: bold;
