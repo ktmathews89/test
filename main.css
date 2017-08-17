@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.875em;
+  color: #323232;
+  margin-top: 80px;
+  margin-bottom: 45px;
+}
+
+h2 {
+  font-family:'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #00897f;
+  text-transform:uppercase;
+}
+
+h3 {
+  font-family:'PT Serif', serif;
+  font-size: 1em;
+  line-height:2em;
+  color: #323232;
+  text-align: justify;
+}
+
+p {
+  font-family:'PT Serif', serif;
+  font-size: .875em;
+  line-height: 1.75em;
+  color: #323232;
+}
+
+a {
+  font-family:'PT Serif', serif;
+  font-weight: bold;
+  font-size: 1em;
+  #f26522;
+}
+
+nav h1 {
+  font-family:'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #323232;
+  float: left;
+  padding: 0 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+nav p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: .9em;
+  color: 323232;
+  float: right;
+  padding: 0 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+  
+footer {
+  font-family:'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: 323232;
+}
+
+.img-circle {
+    border-radius: 50%;
+    float: left;
+    width: 250;
+}
+
+div img {
+  display: block;
+  float: left;
+  margin-right: 170px;
+}
+
+section {
+  margin: 40px
+}
+
+/* On devices wider than 660px */
+@media(min-width: 660px) {
+}
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+}
